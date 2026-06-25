@@ -1,34 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Picanha Gourmet </title>
     <link rel="stylesheet" href="../css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <div class="principal">
         <div class="header">
             <div class="menu">
-                <div class="item">
-                    Home
+                <div class="logo">
+                    <img src="../imagens/logo.png" style="height: 80px !important; width: auto;" alt="Logo Picanha Gourmet">
                 </div>
-                <div class="item">
-                    Produtos
-                </div>
-                <div class="item">
-                    Sobre
-                </div>
-                <div class="item">
-                    Contato
+                <div class="item"><a href="../html/inicial.html">Home</a></div>
+                <div class="item"><a href="../html/produtos.html">Produtos</a></div>
+                <div class="item"><a href="../html/sobre.html">Sobre</a></div>
+                <div class="item"><a href="../html/contato.html">Contato</a></div>
+            </div>
+        </div>
+
+        <div class="corpo flex flex-col justify-center items-center py-8">
+            <div class="introducao mb-2">Conheça nossos destaques:</div>
+
+            <div class="w-full max-w-4xl px-4">
+                <div class="flex space-x-4 overflow-x-auto scrollbar-hide snap-x snap-mandatory py-4">
+                    
+                    <div class="flex-shrink-0 w-full sm:w-80 snap-center bg-amber-100 rounded-xl overflow-hidden shadow-lg">
+                        <img src="../imagens/logo.png" alt="Picanha" class="w-full h-48 object-cover">
+                        <div class="p-4 text-center text-amber-900 font-bold">Picanha Premium</div>
+                    </div>
+
+                    <div class="flex-shrink-0 w-full sm:w-80 snap-center bg-amber-100 rounded-xl overflow-hidden shadow-lg">
+                        <img src="../imagens/logo.png" alt="Acompanhamentos" class="w-full h-48 object-cover">
+                        <div class="p-4 text-center text-amber-900 font-bold">Acompanhamentos Especiais</div>
+                    </div>
+
+                    <div class="flex-shrink-0 w-full sm:w-80 snap-center bg-amber-100 rounded-xl overflow-hidden shadow-lg">
+                        <img src="../imagens/logo.png" alt="Bebidas" class="w-full h-48 object-cover">
+                        <div class="p-4 text-center text-amber-900 font-bold">Bebidas Geladas</div>
+                    </div>
+
+                    <div class="flex-shrink-0 w-full sm:w-80 snap-center bg-amber-100 rounded-xl overflow-hidden shadow-lg">
+                        <img src="../imagens/logo.png" alt="Sobremesas" class="w-full h-48 object-cover">
+                        <div class="p-4 text-center text-amber-900 font-bold">Sobremesas Caseiras</div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="corpo">
-
-        </div>
         <div class="rodape">
-            
+            <div class="local">
+                <div class="local_coluna">
+                    <p>R. Doze de Dezembro, 885 - Ipiranga, Divinópolis - MG</p>
+                    <p>Telefone: (37) 3221-7587</p>
+                </div>
+                
+                <div class="mapa-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3745.9900938726937!2d-44.91111292476757!3d-20.134460881300452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa0a5f30d116fd3%3A0x9fd056ab2c4daa3f!2sPicanha%20Gourmet!5e0!3m2!1spt-BR!2sbr!4v1782409310773!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                </div>
         </div>
     </div>
 </body>
